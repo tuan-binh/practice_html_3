@@ -1,0 +1,1505 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UILearn - Học Cắt Giao Diện Từ Zero Đến Hero</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav-container">
+        <div class="nav-content">
+          <!-- Logo -->
+          <div class="logo">
+            <div class="logo-icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <span class="logo-text">UILearn</span>
+          </div>
+
+          <!-- Desktop Navigation -->
+          <div class="nav-links">
+            <a href="#home">Trang chủ</a>
+            <a href="#features">Tính năng</a>
+            <a href="#courses">Khóa học</a>
+            <a href="#testimonials">Đánh giá</a>
+            <a href="#contact">Liên hệ</a>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="nav-cta">
+            <button class="btn-login">Đăng nhập</button>
+            <button class="btn-signup">Đăng ký</button>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <svg
+              class="menu-icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+            <svg
+              class="close-icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+          <a href="#home">Trang chủ</a>
+          <a href="#features">Tính năng</a>
+          <a href="#courses">Khóa học</a>
+          <a href="#testimonials">Đánh giá</a>
+          <a href="#contact">Liên hệ</a>
+          <div class="mobile-menu-cta">
+            <button class="btn-login">Đăng nhập</button>
+            <button class="btn-signup">Đăng ký</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Content -->
+          <div class="hero-content">
+            <div class="hero-badge">🎓 Nền tảng học cắt giao diện số 1 Việt Nam</div>
+
+            <h1 class="hero-title">
+              Học Cắt Giao Diện
+              <span class="gradient-text">Từ Zero Đến Hero</span>
+            </h1>
+
+            <p class="hero-description">
+              Khóa học thực chiến giúp bạn thành thạo HTML, CSS, và các framework hiện
+              đại. Từng bước chuyển đổi design thành code chuyên nghiệp.
+            </p>
+
+            <div class="hero-buttons">
+              <button class="btn-primary">
+                Bắt đầu học ngay
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+
+              <button class="btn-secondary">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+                Xem video demo
+              </button>
+            </div>
+
+            <!-- Stats -->
+            <div class="hero-stats">
+              <div class="stat-item">
+                <div class="stat-number">50K+</div>
+                <div class="stat-label">Học viên</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">Bài học</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">4.9/5</div>
+                <div class="stat-label">Đánh giá</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Content - Image -->
+          <div class="hero-image">
+            <div class="hero-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1759884248009-92c5e957708e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwY29kaW5nJTIwbGFwdG9wfGVufDF8fHx8MTc2NjQ2NzUzMnww&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="Student coding"
+              />
+            </div>
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-badge">✨ Tính năng nổi bật</div>
+          <h2 class="section-title">Tại Sao Chọn UILearn?</h2>
+          <p class="section-description">
+            Nền tảng học tập toàn diện với phương pháp giảng dạy hiện đại, giúp bạn nắm
+            vững kỹ năng cắt giao diện chuyên nghiệp.
+          </p>
+        </div>
+
+        <!-- Features Grid -->
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon blue">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-title">HTML & CSS Nâng Cao</h3>
+            <p class="feature-description">
+              Học từ cơ bản đến nâng cao với các kỹ thuật modern CSS, Flexbox, Grid
+              Layout.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon purple">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="13.5" cy="6.5" r=".5"></circle>
+                <circle cx="17.5" cy="10.5" r=".5"></circle>
+                <circle cx="8.5" cy="7.5" r=".5"></circle>
+                <circle cx="6.5" cy="12.5" r=".5"></circle>
+                <path
+                  d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Thiết Kế Responsive</h3>
+            <p class="feature-description">
+              Tạo giao diện tương thích mọi thiết bị từ mobile đến desktop một cách chuyên
+              nghiệp.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon pink">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">Mobile First Approach</h3>
+            <p class="feature-description">
+              Phương pháp thiết kế ưu tiên mobile, tối ưu trải nghiệm người dùng trên mọi
+              màn hình.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon orange">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="feature-title">Framework Hiện Đại</h3>
+            <p class="feature-description">
+              Làm chủ Tailwind CSS, Bootstrap và các công cụ build hiện đại như Vite,
+              Webpack.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon green">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Học Theo Nhóm</h3>
+            <p class="feature-description">
+              Tham gia cộng đồng học viên, thảo luận và hỗ trợ lẫn nhau trong quá trình
+              học.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon indigo">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-title">Chứng Chỉ Hoàn Thành</h3>
+            <p class="feature-description">
+              Nhận chứng chỉ xác nhận năng lực sau khi hoàn thành khóa học và các dự án
+              thực tế.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-badge purple-badge">📚 Khóa học</div>
+          <h2 class="section-title">Lộ Trình Học Tập Toàn Diện</h2>
+          <p class="section-description">
+            Từ cơ bản đến nâng cao, lựa chọn khóa học phù hợp với trình độ của bạn.
+          </p>
+        </div>
+
+        <!-- Courses Grid -->
+        <div class="courses-grid">
+          <!-- Course 1 -->
+          <div class="course-card">
+            <div class="course-image">
+              <img
+                src="https://images.unsplash.com/photo-1657812159077-90649115008c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGRlc2lnbnxlbnwxfHx8fDE3NjY0MDI0OTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="HTML & CSS Cơ Bản"
+              />
+              <span class="course-badge">Phổ biến</span>
+            </div>
+            <div class="course-content">
+              <div class="course-level">Beginner</div>
+              <h3 class="course-title">HTML & CSS Cơ Bản</h3>
+              <p class="course-description">
+                Bắt đầu hành trình với HTML5 và CSS3, tạo nền tảng vững chắc cho career
+                Frontend Developer.
+              </p>
+              <div class="course-meta">
+                <span>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  8 tuần
+                </span>
+                <span>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path
+                      d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"
+                    ></path>
+                  </svg>
+                  45 bài
+                </span>
+              </div>
+              <div class="course-rating">
+                <div class="rating">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="#facc15"
+                    stroke="#facc15"
+                    stroke-width="2"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    ></polygon>
+                  </svg>
+                  <span class="rating-number">4.9</span>
+                  <span class="rating-count">(12,450)</span>
+                </div>
+              </div>
+              <div class="course-footer">
+                <div class="course-price">Miễn phí</div>
+                <button class="btn-course">
+                  Tìm hiểu
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 2 -->
+          <div class="course-card">
+            <div class="course-image">
+              <img
+                src="https://images.unsplash.com/photo-1617153817979-283ffdcd52f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbiUyMHdvcmt8ZW58MXx8fHwxNzY2NDczMTIyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="Responsive Design Master"
+              />
+              <span class="course-badge">Bán chạy</span>
+            </div>
+            <div class="course-content">
+              <div class="course-level">Intermediate</div>
+              <h3 class="course-title">Responsive Design Master</h3>
+              <p class="course-description">
+                Làm chủ kỹ thuật Responsive với Flexbox, Grid, Media Queries và các best
+                practices hiện đại.
+              </p>
+              <div class="course-meta">
+                <span>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  6 tuần
+                </span>
+                <span>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path
+                      d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"
+                    ></path>
+                  </svg>
+                  38 bài
+                </span>
+              </div>
+              <div class="course-rating">
+                <div class="rating">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="#facc15"
+                    stroke="#facc15"
+                    stroke-width="2"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    ></polygon>
+                  </svg>
+                  <span class="rating-number">4.8</span>
+                  <span class="rating-count">(8,920)</span>
+                </div>
+              </div>
+              <div class="course-footer">
+                <div class="course-price">599,000₫</div>
+                <button class="btn-course">
+                  Tìm hiểu
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 3 -->
+          <div class="course-card">
+            <div class="course-image">
+              <img
+                src="https://images.unsplash.com/photo-1759884248009-92c5e957708e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwY29kaW5nJTIwbGFwdG9wfGVufDF8fHx8MTc2NjQ2NzUzMnww&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="Tailwind CSS Pro"
+              />
+              <span class="course-badge">Mới</span>
+            </div>
+            <div class="course-content">
+              <div class="course-level">Advanced</div>
+              <h3 class="course-title">Tailwind CSS Pro</h3>
+              <p class="course-description">
+                Xây dựng UI nhanh chóng với Tailwind CSS, tối ưu workflow và tạo design
+                system chuyên nghiệp.
+              </p>
+              <div class="course-meta">
+                <span>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  5 tuần
+                </span>
+                <span>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path
+                      d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"
+                    ></path>
+                  </svg>
+                  32 bài
+                </span>
+              </div>
+              <div class="course-rating">
+                <div class="rating">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="#facc15"
+                    stroke="#facc15"
+                    stroke-width="2"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    ></polygon>
+                  </svg>
+                  <span class="rating-number">5.0</span>
+                  <span class="rating-count">(6,340)</span>
+                </div>
+              </div>
+              <div class="course-footer">
+                <div class="course-price">799,000₫</div>
+                <button class="btn-course">
+                  Tìm hiểu
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- View All Button -->
+        <div class="text-center">
+          <button class="btn-view-all">Xem tất cả khóa học</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-badge green-badge">💬 Đánh giá học viên</div>
+          <h2 class="section-title">Học Viên Nói Gì Về Chúng Tôi?</h2>
+          <p class="section-description">
+            Hàng nghìn học viên đã thành công trong sự nghiệp nhờ UILearn
+          </p>
+        </div>
+
+        <!-- Testimonials Grid -->
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <svg
+              class="quote-icon"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"
+              ></path>
+              <path
+                d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"
+              ></path>
+            </svg>
+            <div class="stars">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+            </div>
+            <p class="testimonial-content">
+              "UILearn đã giúp tôi từ một người hoàn toàn không biết code trở thành
+              Frontend Developer chuyên nghiệp. Các bài giảng rất dễ hiểu và thực tế."
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix"
+                alt="Nguyễn Văn A"
+              />
+              <div>
+                <div class="author-name">Nguyễn Văn A</div>
+                <div class="author-role">Frontend Developer tại VNG Corporation</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <svg
+              class="quote-icon"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"
+              ></path>
+              <path
+                d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"
+              ></path>
+            </svg>
+            <div class="stars">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+            </div>
+            <p class="testimonial-content">
+              "Là designer, tôi muốn hiểu code để làm việc tốt hơn với dev team. UILearn
+              giúp tôi nắm vững HTML/CSS và hiểu cách implement design một cách chính
+              xác."
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://api.dicebear.com/7.x/avataaars/svg?seed=Aneka"
+                alt="Trần Thị B"
+              />
+              <div>
+                <div class="author-name">Trần Thị B</div>
+                <div class="author-role">UI/UX Designer tại Tiki</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <svg
+              class="quote-icon"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"
+              ></path>
+              <path
+                d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"
+              ></path>
+            </svg>
+            <div class="stars">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+            </div>
+            <p class="testimonial-content">
+              "Khóa học Tailwind CSS Pro thật sự xuất sắc! Tôi đã áp dụng ngay vào dự án
+              công ty và productivity tăng gấp đôi. Highly recommended!"
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://api.dicebear.com/7.x/avataaars/svg?seed=John"
+                alt="Phạm Minh C"
+              />
+              <div>
+                <div class="author-name">Phạm Minh C</div>
+                <div class="author-role">Full Stack Developer tại Shopee</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <svg
+              class="quote-icon"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"
+              ></path>
+              <path
+                d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"
+              ></path>
+            </svg>
+            <div class="stars">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+            </div>
+            <p class="testimonial-content">
+              "Cộng đồng UILearn rất nhiệt tình và supportive. Mọi thắc mắc đều được giải
+              đáp nhanh chóng. Đây là nơi tuyệt vời để học và phát triển."
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://api.dicebear.com/7.x/avataaars/svg?seed=Sophie"
+                alt="Lê Thị D"
+              />
+              <div>
+                <div class="author-name">Lê Thị D</div>
+                <div class="author-role">Junior Developer tại FPT Software</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <svg
+              class="quote-icon"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"
+              ></path>
+              <path
+                d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"
+              ></path>
+            </svg>
+            <div class="stars">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+            </div>
+            <p class="testimonial-content">
+              "Phương pháp giảng dạy thực chiến giúp tôi tự tin làm việc với các dự án
+              thực tế ngay sau khóa học. Best investment ever!"
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://api.dicebear.com/7.x/avataaars/svg?seed=Michael"
+                alt="Hoàng Văn E"
+              />
+              <div>
+                <div class="author-name">Hoàng Văn E</div>
+                <div class="author-role">Web Developer tại Zalo</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <svg
+              class="quote-icon"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"
+              ></path>
+              <path
+                d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"
+              ></path>
+            </svg>
+            <div class="stars">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="#facc15"
+                stroke="#facc15"
+              >
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                ></polygon>
+              </svg>
+            </div>
+            <p class="testimonial-content">
+              "Từ sinh viên IT không biết gì đến nhận được offer intern tại Grab, UILearn
+              đã thay đổi cuộc đời tôi. Cảm ơn các mentor rất nhiều!"
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://api.dicebear.com/7.x/avataaars/svg?seed=Emma"
+                alt="Vũ Thị F"
+              />
+              <div>
+                <div class="author-name">Vũ Thị F</div>
+                <div class="author-role">Frontend Intern tại Grab</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-banner">
+          <div class="stat-box">
+            <div class="stat-box-number">50K+</div>
+            <div class="stat-box-label">Học viên đã đăng ký</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-box-number">95%</div>
+            <div class="stat-box-label">Tỷ lệ hoàn thành</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-box-number">4.9/5</div>
+            <div class="stat-box-label">Đánh giá trung bình</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-box-number">80%</div>
+            <div class="stat-box-label">Có việc làm sau khóa học</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-grid">
+          <!-- Left Content -->
+          <div class="cta-content">
+            <h2 class="cta-title">Sẵn Sàng Bắt Đầu Hành Trình Của Bạn?</h2>
+            <p class="cta-description">
+              Tham gia cùng hàng nghìn học viên đang học tập và phát triển kỹ năng cắt
+              giao diện mỗi ngày. Khóa học đầu tiên miễn phí!
+            </p>
+
+            <!-- Benefits List -->
+            <div class="benefits-list">
+              <div class="benefit-item">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <span>Học tập linh hoạt theo lịch trình của bạn</span>
+              </div>
+              <div class="benefit-item">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <span>Hỗ trợ 24/7 từ mentor và cộng đồng</span>
+              </div>
+              <div class="benefit-item">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <span>Tài liệu và source code đầy đủ</span>
+              </div>
+              <div class="benefit-item">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <span>Chứng chỉ hoàn thành có giá trị</span>
+              </div>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="cta-buttons">
+              <button class="btn-cta-primary">
+                <span>Đăng ký miễn phí</span>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+
+              <button class="btn-cta-secondary">Xem bảng giá</button>
+            </div>
+          </div>
+
+          <!-- Right Content - Form -->
+          <div class="cta-form-wrapper">
+            <div class="cta-form-card">
+              <div class="form-header">
+                <div class="form-badge">🎁 Ưu đãi đặc biệt</div>
+                <h3 class="form-title">Học Thử Miễn Phí</h3>
+                <p class="form-subtitle">
+                  Trải nghiệm 3 bài học đầu tiên hoàn toàn miễn phí
+                </p>
+              </div>
+
+              <form class="cta-form">
+                <div class="form-group">
+                  <label for="name">Họ và tên</label>
+                  <input type="text" id="name" placeholder="Nguyễn Văn A" />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" placeholder="email@example.com" />
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Số điện thoại</label>
+                  <input type="tel" id="phone" placeholder="0123456789" />
+                </div>
+
+                <button type="submit" class="btn-form-submit">
+                  Nhận ngay khóa học miễn phí
+                </button>
+
+                <p class="form-terms">
+                  Bằng việc đăng ký, bạn đồng ý với
+                  <a href="#">Điều khoản dịch vụ</a> và
+                  <a href="#">Chính sách bảo mật</a>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+      <div class="container">
+        <!-- Main Footer Content -->
+        <div class="footer-grid">
+          <!-- Brand Column -->
+          <div class="footer-brand">
+            <div class="logo">
+              <div class="logo-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <span class="logo-text">UILearn</span>
+            </div>
+            <p class="footer-description">
+              Nền tảng học lập trình Frontend hàng đầu Việt Nam. Giúp bạn thành thạo kỹ
+              năng cắt giao diện và phát triển sự nghiệp.
+            </p>
+
+            <!-- Contact Info -->
+            <div class="footer-contact">
+              <div class="contact-item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  ></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>contact@uillearn.vn</span>
+              </div>
+              <div class="contact-item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                  ></path>
+                </svg>
+                <span>1900 xxxx</span>
+              </div>
+              <div class="contact-item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Hà Nội, Việt Nam</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Links Columns -->
+          <div class="footer-links-column">
+            <h3>Sản phẩm</h3>
+            <ul>
+              <li><a href="#courses">Khóa học</a></li>
+              <li><a href="#">Lộ trình học</a></li>
+              <li><a href="#">Giảng viên</a></li>
+              <li><a href="#">Bảng giá</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-column">
+            <h3>Tài nguyên</h3>
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Tài liệu</a></li>
+              <li><a href="#">Video hướng dẫn</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-column">
+            <h3>Công ty</h3>
+            <ul>
+              <li><a href="#">Về chúng tôi</a></li>
+              <li><a href="#">Tuyển dụng</a></li>
+              <li><a href="#contact">Liên hệ</a></li>
+              <li><a href="#">Đối tác</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-column">
+            <h3>Pháp lý</h3>
+            <ul>
+              <li><a href="#">Điều khoản dịch vụ</a></li>
+              <li><a href="#">Chính sách bảo mật</a></li>
+              <li><a href="#">Chính sách hoàn tiền</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Newsletter Section -->
+        <div class="newsletter-section">
+          <div class="newsletter-content">
+            <h3>Đăng ký nhận tin tức</h3>
+            <p>Nhận thông tin về khóa học mới, tips & tricks hàng tuần</p>
+          </div>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Email của bạn" />
+            <button class="btn-newsletter">Đăng ký</button>
+          </div>
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="footer-bottom">
+          <p class="copyright">© 2024 UILearn. All rights reserved.</p>
+
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="#" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path
+                  d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                  stroke="white"
+                  stroke-width="2"
+                ></path>
+                <line
+                  x1="17.5"
+                  y1="6.5"
+                  x2="17.51"
+                  y2="6.5"
+                  stroke="white"
+                  stroke-width="2"
+                ></line>
+              </svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
+                ></path>
+                <polygon
+                  points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
+                  fill="white"
+                ></polygon>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
